@@ -34,7 +34,7 @@ client.on('ready', () => {
     console.log('Generating docs...');
     generateDocs(creator.commands);
     console.log('Docs generated!');
-    client.user.setActivity('Kantor Camat', { type: 'COMPETING' });
+    client.user.setActivity('Bif', { type: 'COMPETING' });
     client.user.setStatus('dnd');
 });
 
